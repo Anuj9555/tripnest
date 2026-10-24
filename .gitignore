@@ -25,6 +25,7 @@ frontend/.env.local
 # Binaries and Logs
 cloudflared.exe
 *.exe
+*.zip
 *.log
 .DS_Store
 Thumbs.db

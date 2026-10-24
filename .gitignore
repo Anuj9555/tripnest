@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+backend/tripnest.db
+
+# Production build (will be built during deployment)
+frontend/dist/
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env.local
+
+# Binaries and Logs
+cloudflared.exe
+*.log
+.DS_Store
+Thumbs.db

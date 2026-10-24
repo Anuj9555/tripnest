@@ -24,6 +24,10 @@ frontend/.env.local
 
 # Binaries and Logs
 cloudflared.exe
+*.exe
 *.log
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
+.pytest_cache/
